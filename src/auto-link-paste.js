@@ -2,7 +2,7 @@ import Delta from "quill-delta";
 
 import { normalize } from "./utils/url";
 
-export const MagicPaste = (quill) => {
+export const AutoLinkPaste = (quill) => {
   quill.clipboard.addMatcher(Node.TEXT_NODE, (node, delta) => {
     if (typeof node.data !== "string") {
       return delta;
@@ -31,4 +31,4 @@ export const MagicPaste = (quill) => {
   });
 };
 
-export default MagicPaste;
+export default AutoLinkPaste;

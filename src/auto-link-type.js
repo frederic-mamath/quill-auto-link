@@ -2,7 +2,7 @@ import Delta from "quill-delta";
 
 import { normalize } from "./utils/url";
 
-export const MagicType = (quill) => {
+export const AutoLinkType = (quill) => {
   quill.on("text-change", (delta) => {
     const { ops } = delta;
 
@@ -52,4 +52,4 @@ export const MagicType = (quill) => {
   });
 };
 
-export default MagicType;
+export default AutoLinkType;
