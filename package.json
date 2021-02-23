@@ -1,0 +1,31 @@
+{
+  "name": "quill-auto-link",
+  "version": "0.1.0",
+  "description": "Automatically transforming pasted and typed URL in Quill Editor",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "Quill",
+    "URL",
+    "link",
+    "paste",
+    "copy",
+    "type",
+    "transform"
+  ],
+  "author": "Frederic MAMATH",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "rollup": "^2.39.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  },
+  "dependencies": {
+    "quill-delta": "^4.2.2"
+  }
+}
