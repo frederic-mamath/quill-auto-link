@@ -1,6 +1,6 @@
 {
   "name": "quill-auto-link",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Automatically transforming pasted and typed URL in Quill Editor",
   "main": "build/index.js",
   "module": "build/index.es.js",
@@ -27,5 +27,9 @@
   },
   "dependencies": {
     "quill-delta": "^4.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frederic-mamath/quill-auto-link.git"
   }
 }
